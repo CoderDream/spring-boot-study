@@ -1,10 +1,10 @@
-package com.coderdream.demo2020031302;
+package com.coderdream.springbootdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo2020031302ApplicationTests {
+class SpringBootDemoApplicationTests {
 
     @Test
     void contextLoads() {
