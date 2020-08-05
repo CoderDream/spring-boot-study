@@ -17,12 +17,7 @@ public class IndexController {
 //        return "index";
 //    }
 
-    @GetMapping("/test")
-    public String get(){
-        return "test success";
-    }
-
-    @GetMapping("home")
+    @GetMapping("index")
     public String index(Model model) {
         User user = new User();
         user.setUsername("jack");
@@ -36,5 +31,10 @@ public class IndexController {
         user.setSecrets(maps);
         model.addAttribute("user", user);
         return "index";
+    }
+
+    @GetMapping("main")
+    public String main(Model model) {
+        return "main";
     }
 }

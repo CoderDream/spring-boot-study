@@ -1,3 +1,13 @@
+cas:
+  server-url-prefix: http://10.100.254.229:8080/cas
+  server-login-url: http://10.100.254.229:8080/cas/login
+  client-host-url: http://10.50.20.122:8080
+  validation-type: cas
+
+server:
+  port: 8080
+
+
 spring:
   thymeleaf:
     enabled: true  #开启thymeleaf视图解析
